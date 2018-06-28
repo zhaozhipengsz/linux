@@ -1,0 +1,42 @@
+1配置：
+./configure --prefix=/alidata/server/nginx  --with-http_realip_module  --with-http_sub_module --with-http_gzip_static_module --with-http_stub_status_module  --with-pcre
+2.
+make&& make install
+3.
+启动nginx
+cd /alidata/server/nginx/sbin ./nginx
+重启：
+./nginx -s reload
+4.
+虚拟机本地测试web页面OK，主机访问不了解决方法：
+service iptables stop //暂时关闭防火墙
+chkconfig iptables off //防火墙自启动关闭
+5.
+安装php
+安装依赖包：
+yum -y install libxml2
+yum -y install libxml2-devel
+配置:
+./configure --prefix=/alidata/server/php --with-curl --with-freetype-dir --with-gd --with-gettext --with-iconv-dir --with-kerberos --with-libdir=lib64 --with-libxml-dir --with-mysqli --with-openssl --with-pcre-regex --with-pdo-mysql --with-pdo-sqlite --with-pear --with-png-dir --with-jpeg-dir --with-xmlrpc --with-xsl --with-zlib --with-bz2 --with-mhash --enable-fpm --enable-bcmath --enable-libxml --enable-inline-optimization --enable-gd-native-ttf --enable-mbregex --enable-mbstring --enable-opcache --enable-pcntl --enable-shmop --enable-soap --enable-sockets --enable-sysvsem --enable-sysvshm --enable-xml --enable-zip
+6.
+make && make install
+
+7.启动php
+cd /alidata/server/php/sbin
+./php-fpm
+
+8.nginx解析php
+配置.php请求被传送到后端的php-fpm模块
+location ~ \.php$
+        {
+                fastcgi_pass  127.0.0.1:9000;
+                fastcgi_index index.php;
+                fastcgi_split_path_info ^((?U).+\.php)(/?.+)$;
+                fastcgi_param  SCRIPT_FILENAME /mnt/www/test$fastcgi_script_name;
+                fastcgi_param PATH_INFO $fastcgi_path_info;
+                fastcgi_param   RUN_ENV_TEST 1;
+                include fastcgi_params;
+        }
+
+
+

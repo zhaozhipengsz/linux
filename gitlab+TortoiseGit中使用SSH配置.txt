@@ -1,0 +1,21 @@
+gitlab+TortoiseGit中使用SSH 简要记录
+
+1、在文件夹空白位置右键打开"Git Bash" 
+
+2、按 https://gitlab.yourhost.com/help/ssh/ssh.md 中的说明，输入命令 
+
+  ssh-keygen -t rsa -C "自己的邮箱"  
+ssh-keygen -t rsa -C "zhaozhipeng@globalegrow.com"
+
+一路回车到结束后可以看到“C:\Users\meitu\.ssh”目录下生成了两个文件 id_rsa 和 id_rsa.pub
+
+3、到 https://gitlab.yourhost.com/profile/keys 提交 id_rsa.pub 里的文本
+
+4、打开 "C:\Program Files\TortoiseGit\bin\puttygen.exe" ，点击"load"，选择刚才的id_rsa，然后"save private key"，保存为putty可用的ppk后缀文件
+
+5、打开“"C:\Program Files\TortoiseGit\bin\pageant.exe"” ，点击 "Add Key" 加载刚才保存的ppk文件
+
+完工
+
+///////////////推送不同分支////////////////
+右键——tortoisegit——Sync——remote branch 选择要推送的分支

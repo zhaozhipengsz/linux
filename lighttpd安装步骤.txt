@@ -1,0 +1,57 @@
+一.下载安装包
+解压到 /home/data/lighttpd-1.4.45
+二.编译安装
+cd /home/data/lighttpd-1.4.45
+./configure --with-openssl --with-openssl-libs=/usr/local/openssl/include/openssl  --prefix=/alidata/server/lighttpd
+注：  --with-openssl --with-openssl-libs 是支持ssl扩展，虽然本地有openssl，但还是yum install openssl*，然后找出openssl的库文件！
+三.编译后配置
+cd /home/data/lighttpd-1.4.45/
+1：cp doc/initscripts/sysconfig.lighttpd  /etc/sysconfig/lighttpd
+2：cp doc/config/lighttpd.conf  /etc/lighttpd/lighttpd.conf
+3：cp doc/initscripts/rc.lighttpd.redhat  /etc/init.d/lighttpd
+4:   vi /etc/init.d/lighttpd
+lighttpd=/usr/sbin/lighttpd
+改为
+lighttpd="/alidata/server/lighttpd/sbin/lighttpd"
+四.配置
+vi /etc/lighttpd/lighttpd.conf
+1.server.errorlog              = "/alidata/sever/lighttpd/logs/error.log"
+2. server.username          = "nobody"
+    server.groupname        = "nobody"
+3.server.port                 = 81
+五.制作证书支持https
+http://blog.yunqi.li/archives/make-a-fake-ssl-cert-for-your-site.html
+
+启动及关闭命令：
+/etc/init.d/lighttpd start
+/etc/init.d/lighttpd stop
+/etc/init.d/lighttpd restart
+
+参考网址：
+http://blog.chinaunix.net/uid-25266990-id-127946.html
+http://redmine.lighttpd.net/projects/lighttpd/wiki/Docs_SSL
+http://blog.yunqi.li/archives/make-a-fake-ssl-cert-for-your-site.html
+
+
+
+--------------------------------------------安装openssl----------------------------------------------------
+参考网址：http://blog.csdn.net/gengxiaoming7/article/details/50957275
+
+[root@bogon engines]# openssl version
+OpenSSL 1.0.1e-fips 11 Feb 2013
+[root@bogon engines]# /usr/bin/openssl version
+OpenSSL 1.0.1e-fips 11 Feb 2013
+
+make && make install 默认安装在/usr/local/
+
+建立软链接
+ln -s openssl ssl   //ssl为新建文件
+
+添加环境变量
+http://blog.csdn.net/huangfei711/article/details/53044539
+只在当前标签页起作用，新的标签页不起作用。重启机器后，起作用
+
+make安装openssl库文件路径：
+/usr/local/openssl/include/openssl
+yum安装openssl库文件路径：
+/usr/include/openssl

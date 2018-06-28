@@ -1,0 +1,13 @@
+1：用于重启时 kill -USR2 `cat  /alidata/server/php/var/run/php-fpm.pid`用到此文件
+vi /alidata/server/php/etc/php-fpm.conf
+放开注释：
+pid = run/php-fpm.pid
+
+2:网址跳转后路径中含有 .php 没有文件名
+vi /alidata/server/php/lib/php.ini
+;cgi.fix_pathinfo=0改为cgi.fix_pathinfo=1
+
+
+
+
+

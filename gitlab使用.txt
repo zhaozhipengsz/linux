@@ -1,0 +1,5 @@
+1.安装Git-2.16.2-64-bit.exe
+2.安装TortoiseGit-2.5.0.0-64bit.msi git的客户端操作界面
+3.使用git bash 生成公钥与私钥，将公钥拷贝到gitlab上去（这样就可以上传了）C:\Users\zhaozhipeng\.ssh
+4.本地新建文件夹 使用TortoiseGit git clone 到本地
+5.如果要克隆gitlab某分支，则需要在本地文件夹里右键git bash 工具，使用命令git checkout --track origin/feature-CRM框架初始化

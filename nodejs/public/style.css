@@ -1,0 +1,41 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #DDDDDD;
+  color: #000000;
+}
+#tabcontent{
+	padding:8px;
+	height:250px;
+	width:585px;
+	border:solid 1px;
+	margin:10px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+#bottom{
+	width:595px;
+	margin-right:5px;
+	padding: 5px;
+	cursor:hand;
+}
+#showtime{
+	float:left;
+	margin-left:10px;
+	width:100px;
+}
+#start{
+	float:left;
+}
+#close{
+	margin-right:5px;
+	float:right;
+}
+#entry{
+	width:595px;
+	height:53px;
+	margin-left:10px;
+}
+#chat{
+   float:right;
+ }

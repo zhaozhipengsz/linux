@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="show">0</div>
+<div id="demo"></div>
+<input type="button" onclick="myFunction()" value="闭包" ></input>
+</body>
+<script charset="utf-8" src="jquery/jquery-3.2.1.js"></script>
+<script  type="text/javascript" charset="utf-8" >
+var company =  
+{  
+	name: "Microsoft",  
+	product: "softwares",  
+	chairman: {name: "Bill Gates", age: 53, Married: true},  
+	employees: [{name: "Angel", age: 26 }, {name: "Hanson", age: 32 }],  
+	readme: function() {$("#demo").html(this.name + " product " + this.product);}  //company["readme"]();
+};  
+
+(function(x) {
+	alert(x);
+})(10);
+
+
+function myInterval()
+{
+	$.ajax({
+			type: "POST",
+			url: "subscribe.php",//
+			 success: function (data) {
+			 	if(data!=''){
+			 		$("#show").append(data+"<br>");
+			 	}
+			}
+		});
+}
+
+//setInterval("myInterval()",1000);//1000为1秒钟
+
+
+var add = (function () {
+	var counter = 0;
+	function f2() {
+		counter += 1;
+		return counter;
+	}
+	return f2;
+})();
+
+var num = 100;
+function addnum(){
+	num ++;
+	return num;
+}
+
+function myFunction(){
+    $("#demo").html(add());
+}
+
+////////////
+
+
+
+</script>
+</html>

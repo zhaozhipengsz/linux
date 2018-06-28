@@ -1,0 +1,35 @@
+
+/mnt/hgfs/centos共享
+
+一、
+Centos6.5系统修改yum源
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-6.repo
+
+二、
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
+
+DEVICE=eth0
+TYPE=Ethernet
+ONBOOT=yes
+NM_CONTROLLED=yes
+BOOTPROTO=static
+IPADDR=192.168.1.110
+NETMASK=255.255.255.0
+GATEWAY=192.168.1.1
+增加
+DNS1=8.8.8.8
+DNS2=8.8.4.4
+
+
+三、
+重新网卡
+service network restart
+
+四、(二三)可以省，Cannot retrieve repository metadata (repomd.xml) for repository: dag. Please verify its path and try again
+我的是dag报错，所以要将dag.repo的[gitlab_gitlab-ce]中的enabled=0
+
+五、
+执行
+yum clean all
+yum makecache
+yum update命令 一切OK

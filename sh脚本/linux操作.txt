@@ -1,0 +1,55 @@
+1.查看80端口使用的个数
+netstat -tcnap | grep i 80 | wc -l
+
+2.查看文件夹的个数
+ll | grep "^d" | wc -l
+
+3.查看文件夹包括子文件夹的个数
+ls -1R | grep "^d" | wc -l
+
+4.查看当前系统的ip连接数
+netstat -n |awk '/^tcp/ {print $5}'| awk -F : '{print $1}'
+
+5.linux系统下生成32位密码
+date | md5sum
+
+6.linux系统下打印时间
+date "+%Y-%M-%d  %H:%I:%S"
+
+7.svn 版本恢复
+svn up -r 版本号
+
+142 机器连接其它机器的方法
+进入142机器
+cd ~/.ssh
+id_rsa ,id_rsa.pub,authorized_keys 三个文件拷贝到其它机器上。
+注意 当弹性伸缩服务出来机器的时候，机器的ip要加入svn的白名单中。
+
+
+查看磁盘总共使用情况
+df -h
+
+查看大于1000000K的文件
+find / -size +1000000K的文件 -print
+
+磁盘使用排序
+du -lh --max-depth=1
+
+从142登录到另外的服务器
+ssh -l root 192.168.0.11
+将authorized_keys拷贝到新机器目录下
+cd ~/.ssh/
+
+查看端口占用情况
+ps -aux | grep php-fpm
+netstat –apn | grep 9001
+
+[curl]
+522 listen = 127.0.0.1:9001
+523 user=www
+524 group=www
+525 pm = dynamic
+526 pm.max_children = 200
+527 pm.start_servers = 18
+528 pm.min_spare_servers = 6
+529 pm.max_spare_servers = 30

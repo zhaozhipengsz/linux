@@ -1,0 +1,5 @@
+安装pip
+ python get-pip.py
+
+ 利用pip安装模块
+ pip install pybloomfiltermmap==0.3.14

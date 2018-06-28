@@ -1,0 +1,37 @@
+
+安装扩展
+进入安装目录（不是源码包目录）
+执行
+/alidata/server/php/bin/phpize
+./configure --with-openssl -with-php-config=/alidata/server/php/bin/php-config
+make && makeinstall
+
+
+查看系统变量方法：
+echo $PATH
+
+以添加mongodb server为列
+通过修改profile文件:
+vim /etc/profile
+/export PATH //找到设置PATH的行，添加
+export PATH=/usr/local/mongodb/bin:$PATH
+生效方法：系统重启
+有效期限：永久有效
+用户局限：对所有用户
+参照 ：
+http://www.cnblogs.com/hust-chenming/p/4943268.html
+
+
+
+   "require": {
+        "php": ">=5.4.0",
+        "topthink/framework": "^5.0",
+        "topthink/think-helper": "dev-master",
+        "topthink/think-captcha": "dev-master",
+        "topthink/think-queue": "dev-master",
+        "topthink/think-image": "dev-master",
+        "topthink/think-migration": "dev-master",
+        "kosinix/grafika": "dev-master",
+        "hightman/xunsearch": "*@beta",
+        "riverslei/payment": "~2.0"
+    },

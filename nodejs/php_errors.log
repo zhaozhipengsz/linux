@@ -1,0 +1,1743 @@
+[16-Aug-2017 11:58:25 PRC] PHP Warning:  Redis::subscribe() expects parameter 1 to be array, string given in D:\phpStudy\www\nodejs\subscribe.php on line 6
+[16-Aug-2017 11:58:41 PRC] PHP Warning:  Redis::subscribe() expects parameter 2 to be a valid callback, function 'f' not found or invalid function name in D:\phpStudy\www\nodejs\subscribe.php on line 6
+[16-Aug-2017 11:59:47 PRC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in D:\phpStudy\www\nodejs\subscribe.php on line 10
+[16-Aug-2017 11:59:59 PRC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in D:\phpStudy\www\nodejs\subscribe.php on line 10
+[16-Aug-2017 12:01:19 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:6
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(6): Redis->subscribe(Array, 'f')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 6
+[16-Aug-2017 12:01:21 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:6
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(6): Redis->subscribe(Array, 'f')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 6
+[16-Aug-2017 13:49:41 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:8
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(8): Redis->subscribe(Array, 'f')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 8
+[16-Aug-2017 13:49:44 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:8
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(8): Redis->subscribe(Array, 'f')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 8
+[16-Aug-2017 13:52:12 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:8
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(8): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 8
+[16-Aug-2017 14:00:25 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:00:33 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:00:35 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:00:49 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:8
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(8): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 8
+[16-Aug-2017 14:00:49 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:8
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(8): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 8
+[16-Aug-2017 14:02:38 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:37 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:37 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:38 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:38 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:39 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:39 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:40 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:40 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:41 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:41 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:41 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:41 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:41 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:42 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:42 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:42 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:42 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:42 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:43 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:43 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:43 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:43 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:43 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:44 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:44 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:44 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:44 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:44 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:45 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:45 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:45 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:45 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:45 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:46 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:46 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:46 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:46 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:46 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:47 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:47 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:47 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:47 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:16:48 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:17:27 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:17:28 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:17:31 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:17:32 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:17:35 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:17:36 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:17:38 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:17:39 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:17:50 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:17:51 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:17:53 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:17:54 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:16 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:17 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:38 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:39 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:40 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:41 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:42 PRC] PHP Catchable fatal error:  Object of class Redis could not be converted to string in D:\phpStudy\www\nodejs\subscribe.php on line 12
+[16-Aug-2017 14:18:43 PRC] PHP Catchable fatal error:  Object of class Redis could not be converted to string in D:\phpStudy\www\nodejs\subscribe.php on line 12
+[16-Aug-2017 14:18:43 PRC] PHP Catchable fatal error:  Object of class Redis could not be converted to string in D:\phpStudy\www\nodejs\subscribe.php on line 12
+[16-Aug-2017 14:18:44 PRC] PHP Catchable fatal error:  Object of class Redis could not be converted to string in D:\phpStudy\www\nodejs\subscribe.php on line 12
+[16-Aug-2017 14:18:46 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:47 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:48 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:49 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:50 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:51 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:52 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:53 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:54 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:55 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:56 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:57 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:58 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:18:59 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:00 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:01 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:02 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:03 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:04 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:05 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:06 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:07 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:08 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:09 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:10 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:11 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:12 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:13 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:14 PRC] PHP Notice:  Use of undefined constant msg - assumed 'msg' in D:\phpStudy\www\nodejs\subscribe.php on line 12
+[16-Aug-2017 14:19:15 PRC] PHP Notice:  Use of undefined constant msg - assumed 'msg' in D:\phpStudy\www\nodejs\subscribe.php on line 12
+[16-Aug-2017 14:19:15 PRC] PHP Notice:  Use of undefined constant msg - assumed 'msg' in D:\phpStudy\www\nodejs\subscribe.php on line 12
+[16-Aug-2017 14:19:15 PRC] PHP Notice:  Use of undefined constant msg - assumed 'msg' in D:\phpStudy\www\nodejs\subscribe.php on line 12
+[16-Aug-2017 14:19:15 PRC] PHP Notice:  Use of undefined constant msg - assumed 'msg' in D:\phpStudy\www\nodejs\subscribe.php on line 12
+[16-Aug-2017 14:19:16 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:16 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:16 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:17 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:18 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:19 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:20 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:21 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:22 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:23 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:24 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:25 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:26 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:27 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:28 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:29 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:30 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:31 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:32 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:33 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:34 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:35 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:36 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:37 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:38 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:39 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:40 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:41 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:42 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:43 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:44 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:45 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:46 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:47 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:48 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:49 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:50 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:51 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:53 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:54 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:58 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:58 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:58 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:58 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:19:59 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:00 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:01 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:02 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:03 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:04 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:05 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:06 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:07 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:08 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:09 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:10 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:11 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:12 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:13 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:14 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:15 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:16 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:17 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:18 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:19 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:20 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:21 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:22 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:23 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:24 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:25 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:26 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:27 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:28 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:29 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:30 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:31 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:32 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:33 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:34 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:35 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:36 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:37 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:38 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:39 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:40 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:20:41 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:22:56 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:22:57 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:22:58 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:22:59 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:00 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:00 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:01 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:02 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:03 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:04 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:05 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:06 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:07 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:08 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:09 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:10 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:11 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:12 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:13 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:14 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:15 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:16 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:17 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:18 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:19 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:20 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:21 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:22 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:23 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:24 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:23:25 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:17 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:17 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:17 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:18 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:18 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:19 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:20 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:20 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:20 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:21 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:21 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:21 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:22 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:23 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:23 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:23 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:26 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:26 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:27 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:28 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:29 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:30 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:31 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:32 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:33 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:33 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:35 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:36 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:36 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:38 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:39 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:39 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:41 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:41 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:43 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:44 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:45 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:46 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:47 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:48 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:49 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:50 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:51 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:52 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:53 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:54 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:54 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:56 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:57 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:58 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:27:59 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:00 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:00 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:02 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:03 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:04 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:05 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:06 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:07 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:08 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:08 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:09 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:11 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:12 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:13 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:14 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:15 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:16 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:17 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:18 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:19 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:20 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:21 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:22 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:23 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:24 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:25 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:26 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:27 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:28 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:29 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:31 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:32 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:33 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:34 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:35 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:36 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:39 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:39 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:39 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:40 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:41 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:42 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:43 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:44 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:45 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:46 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:47 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:48 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:49 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:50 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:51 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:52 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'read error on connection' in D:\phpStudy\www\nodejs\subscribe.php:9
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(9): Redis->subscribe(Array, 'subscribe')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 9
+[16-Aug-2017 14:28:52 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:28:54 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:28:55 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:28:56 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:28:57 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:28:58 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:28:59 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:29:00 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:29:01 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:29:02 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:29:03 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:29:04 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:29:05 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:29:06 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:29:07 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:29:08 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:29:09 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:29:10 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:29:11 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:29:12 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:29:13 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:29:14 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:29:15 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:29:16 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5
+[16-Aug-2017 14:29:17 PRC] PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in D:\phpStudy\www\nodejs\subscribe.php:5
+Stack trace:
+#0 D:\phpStudy\www\nodejs\subscribe.php(5): Redis->auth('fNENPzes6Ndk5nE...')
+#1 {main}
+  thrown in D:\phpStudy\www\nodejs\subscribe.php on line 5

@@ -1,0 +1,24 @@
+BEGIN
+        SELECT b.ip,b.space_sum,b.space_used,b.space_left,b.used_percent,DATE_FORMAT(a.inserttime, '%Y-%m-%d') as inserttime,a.user,a.space,p_o.name,(case right(a.space,1)
+        when 'T' then left(a.space,length(a.space)-1)*1024*1024*1024
+        when 'G' then left(a.space,length(a.space)-1)*1024*1024
+        when 'M' then left(a.space,length(a.space)-1)*1024
+        when 'K' then left(a.space,length(a.space)-1)
+        else space end) as c
+        ,(case
+        when right(a.space,1)='T' then 1
+        when right(a.space,1)='G' and left(a.space,length(a.space)-1)>460 then 1
+        when right(a.space,1)='M' then 0
+        when right(a.space,1)='K' then 0
+        else 0 end) as baojing
+        FROM `space_user` as a ,`space_machine` as b ,`progressuser` as p ,`progressuser_org` as p_o WHERE a.ip = b.ip AND left(a.inserttime, 10) = s_date AND a.user=p.name AND p.department_id=p_o.id
+        AND left(b.insert_time, 10) = s_date
+        order by a.ip,
+        ((case right(a.space,1)
+        when 'T' then left(a.space,length(a.space)-1)*1024*1024*1024
+        when 'G' then left(a.space,length(a.space)-1)*1024*1024
+        when 'M' then left(a.space,length(a.space)-1)*1024
+        when 'K' then left(a.space,length(a.space)-1)
+        else space end)+0) desc;
+-- length(a.space) desc,space desc;
+END

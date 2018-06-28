@@ -1,0 +1,39 @@
+1.将源代码下的utils/redis_init_script改名redis_6379复制到/etc/init.d目录下
+2.新建/var/run/文件夹 自动生成redis_6379.pid 文件
+3.将源码目录下的redis.conf文件 复制到/etc/redis目录改名为 6379.conf
+
+===================redis_6379文件内容===============================
+REDISPORT=6379
+EXEC=/usr/local/bin/redis-server
+CLIEXEC=/usr/local/bin/redis-cli
+PIDFILE=/var/run/redis_${REDISPORT}.pid
+CONF="/etc/redis/${REDISPORT}.conf"
+===================================================================
+
+启动redis
+/etc/init.d/redis_6379 start
+开机自启动
+将/etc/init.d/redis_6379 start 代码放入/etc/rc.local 文件里
+
+
+修改/etc/redis/6379.conf文件
+可以让其它机器连接本redis服务器
+bind 127.0.0.1 10.28.181.47
+设置redis密码
+requirepass fNENPzes6Ndk5nElWFpSMAF1zE0bMb
+
+
+php安装redis扩展
+进入phpredis目录
+执行：
+/alidata/server/php/bin/phpize   //用phpize生成configure配置文件
+./configure --with-php-config=/alidata/server/php/bin/php-config
+make && make install
+vi php.ini
+加入
+extension=redis.so
+
+
+ /alidata/server/php/lib/php/extensions/no-debug-non-zts-20121212/
+
+

@@ -1,0 +1,8 @@
+1.
+yum install vsftpd
+
+2.去重启vsftpd
+/sbin/service vsftpd restart
+
+3.
+yum install ftp

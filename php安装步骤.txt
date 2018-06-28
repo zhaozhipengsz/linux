@@ -1,0 +1,93 @@
+http://blog.aboutc.net/linux/65/compile-and-install-php-on-linux
+
+
+./configure --prefix=/alidata/server/php5.6 --with-config-file-path=/alidata/server/php5.6/etc --enable-inline-optimization --disable-debug --disable-rpath --enable-shared --enable-opcache --enable-fpm --with-fpm-user=www --with-fpm-group=www --with-mysql=mysqlnd --with-mysqli=mysqlnd --with-pdo-mysql=mysqlnd --with-gettext --enable-mbstring --with-iconv --with-mcrypt --with-mhash --with-openssl --enable-bcmath --enable-soap --with-libxml-dir --enable-pcntl --enable-shmop --enable-sysvmsg --enable-sysvsem --enable-sysvshm --enable-sockets --with-curl --with-zlib --enable-zip --with-bz2  --without-readline
+
+1.--with-readline 改为 --without-readline
+
+2.创建 www 用户
+# groupadd www
+# useradd -g www -s /sbin/nologin -M www
+不然报错误：
+ERROR: [pool www] cannot get uid for user 'www'
+
+3.
+cp 源码包里的文件/usr/eaglezhao/php.ini-development  到/alidata/server/php5.6/etc/php.ini
+cp /alidata/server/php5.6/etc/php-fpm.conf.default  /alidata/server/php5.6/etc/php-fpm.conf
+
+4.开机自启动php nginx
+vi /etc/rc.local
+#添加如下两行
+/alidata/server/nginx/sbin/nginx
+/alidata/server/php/sbin/php-fpm  -c /alidata/server/php/etc/php.ini -y /alidata/server/php/etc/php-fpm.conf
+
+5.主机访问不了虚拟机
+需要关闭虚拟机的防火墙
+[root@localhost html]# /sbin/iptables -I INPUT -p tcp --dport 80 -j ACCEPT
+[root@localhost html]# /etc/init.d/iptables save
+[root@localhost html]# /etc/init.d/iptables restart
+
+6.php安装GD库扩展
+http://www.jb51.net/os/RedHat/144734.html
+先安装  gd 前置库 ： freetype ，jpegsrc，libpng
+
+.tar.gz     格式解压为          tar   -zxvf   xx.tar.gz
+.tar.bz2   格式解压为          tar   -jxvf    xx.tar.bz
+
+进入源码包目录 /usr/eaglezhao/php5.6.28/ext
+/alidata/server/php/bin/phpize
+./configure -with-php-config=/alidata/server/php/bin/php-config --with-png-dir --with-freetype-dir --with-jpeg-dir --with-gd
+./configure --with-php-config=/alidata/server/php/bin/php-config --with-jpeg-dir=/usr/local/jpeg --with-png-dir=/usr/local/libpng --with-freetype-dir=/usr/local/freetype
+安装phpredis 扩展
+./configure --with-php-config=/alidata/server/php/bin/php-config 后面不加参数
+===================================================================================================
+php-fpm 重启
+kill -USR2 `cat  /alidata/server/php/var/run/php-fpm.pid`
+
+启动
+/alidata/server/php/sbin/php-fpm -c /alidata/server/php/etc/php.ini -y /alidata/server/php/etc/php-fpm.conf
+./php-fpm -c /alidata/server/php/etc/php.ini -y /alidata/server/php/etc/php-fpm.conf
+
+#关闭php-fpm
+kill -INT `cat  /alidata/server/php/var/run/php-fpm.pid`
+
+=========================压力测试====================================================================
+./webbench -c 200 -t 10 http://192.168.1.110/test.php
+./webbench -c 200 -t 10 http://weather40.szprize.cn/weather.php
+
+-------------------------------------------------------------------
+-5000 -10
+Benchmarking: GET http://weather40.szprize.cn/weather.php
+5000 clients, running 10 sec.
+Speed=103614 pages/min, 9041111 bytes/sec.
+Requests: 17269 susceed, 0 failed.
+
+Benchmarking: GET http://weather40.szprize.cn/weather.php
+5000 clients, running 10 sec.
+Speed=156114 pages/min, 13621872 bytes/sec.
+Requests: 26019 susceed, 0 failed.
+---------------------------------------------------------------------
+-5000 -30
+Benchmarking: GET http://weather40.szprize.cn/weather.php
+5000 clients, running 30 sec.
+Speed=114800 pages/min, 9992939 bytes/sec.
+Requests: 57400 susceed, 0 failed.
+
+Benchmarking: GET http://weather40.szprize.cn/weather.php
+5000 clients, running 30 sec.
+Speed=110160 pages/min, 9590754 bytes/sec.
+Requests: 55080 susceed, 0 failed.
+
+
+
+1.在负载均衡的监控里，查看活跃连接数，假如高峰是20W，这个20W 是否可理解为并发数？负载均衡里有5台机器，平均一台机器并发为4W。
+2.我用nginx压力测试工具测试  ./webbench -c 7000 -t 10 http://weather40.szprize.cn/weather.php, 可是我这里设置成7000并没有达到4W，就报错了，这是为什么？
+公积金帐号
+20167061423
+密码
+129099
+
+
+./configure -with-php-config=/alidata/server/php/bin/php-config --with-png-dir --with-freetype-dir --with-jpeg-dir --with-gd
+
+./configure --with-openssl --with-php-config=/alidata/server/php/bin/php-config

@@ -1,0 +1,84 @@
+SELECT  a.id, app_name, package_name, purpose,  sum(1) as total, sum(case status when 3 then 1 else 0 end) as status
+FROM progress_appchannel a
+LEFT JOIN progress_auto_package b on b.package=a.package_name
+WHERE  type in (0,1,3) and package_name in ('com.sankuai.meituan','com.tencent.qqpimsecure','com.duomi.android','com.qq.reader','com.jiami.quickmj.kubi2','com.zengame.rylxx.p365you','com.letv.android.client','com.iflytek.inputmethod','com.zengame.ttddzzrb.p365you','com.cinema2345')
+and purpose=0
+GROUP BY package_name,purpose
+
+//sum(case status when 3 then 1 else 0 end) as status
+
+SELECT utype,package,package_name,name ,sum(1) as total, sum(case status when 3 then 1 else 0 end) as status
+from progress_auto_package a
+left JOIN progress_appchannel b on a.package=b.package_name
+where b.package_name <> ''
+group by package_name;
+
+
+select id,project
+,nz_app_com,ifnull((select 1 from progress_auto_package b where b.utype=3 and FIND_IN_SET(b.package, a.nz_app_com) limit 1),0) as nz_app_com_red
+,yz_app_com,ifnull((select 1 from progress_auto_package b where b.utype=3 and FIND_IN_SET(b.package, a.yz_app_com) limit 1),0) as yz_app_com_red
+,ym_app_com,ifnull((select 1 from progress_auto_package b where b.utype=3 and FIND_IN_SET(b.package, a.ym_app_com) limit 1),0) as ym_app_com_red
+,sf_app_com,ifnull((select 1 from progress_auto_package b where b.utype=3 and FIND_IN_SET(b.package, a.sf_app_com) limit 1),0) as sf_app_com_red
+from progress_activation_apk a
+
+
+
+联合多表修改
+update `progress_auto_app_stat` as s,`progress_appchannel` as c
+set s.app_name=c.app_name
+where s.package_name=c.package_name and s.app_name !=c.app_name;
+
+
+//将数据库字段 space T，G，M 转化为K
+SELECT *,(case right(space,1)
+when 'T' then left(space,length(space)-1)*1024*1024*1024
+when 'G' then left(space,length(space)-1)*1024*1024
+when 'M' then left(space,length(space)-1)*1024
+when 'K' then left(space,length(space)-1)
+else space end) as c
+
+//按数据库space字段排序 T>G>M
+FROM `user_space` where id>56 order by ((case right(space,1)
+when 'T' then left(space,length(space)-1)*1024*1024*1024
+when 'G' then left(space,length(space)-1)*1024*1024
+when 'M' then left(space,length(space)-1)*1024
+when 'K' then left(space,length(space)-1)
+else space end)+0) desc;
+
+
+
+
+UPDATE city set `name`=(
+    CASE `name`
+        WHEN '阿拉善' THEN
+        '阿拉善盟'
+    WHEN '巴彦卓尔'  THEN
+        '巴彦卓尔市'
+    WHEN '包头' THEN
+        '包头市'
+    WHEN '赤峰' THEN
+        '赤峰市'
+        WHEN '东胜'  THEN
+        '鄂尔多斯市'
+        WHEN '海拉尔'  THEN
+        '呼伦贝尔市'
+        WHEN '呼和浩特' THEN
+        '呼和浩特市'
+        WHEN '集宁' THEN
+        '乌兰查布市'
+        WHEN '通辽' THEN
+        '通辽市'
+        WHEN '乌海' THEN
+        '乌海市'
+        WHEN '乌兰浩特' THEN
+        '兴安盟'
+        WHEN '锡林郭勒' THEN
+        '锡林郭勒盟'
+        END
+    )
+
+	
+SELECT * FROM gg_action a
+WHERE a.type='story' AND a.action='estimate_confirm_pass' 
+GROUP BY object_id, FORMAT(date,'YYYY-MM-DD H:i')
+HAVING COUNT(*)>1

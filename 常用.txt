@@ -1,0 +1,55 @@
+php-fpm 重启
+kill -USR2 `cat  /alidata/server/php/var/run/php-fpm.pid`
+
+启动
+/alidata/server/php/sbin/php-fpm -c /alidata/server/php/etc/php.ini -y /alidata/server/php/etc/php-fpm.conf
+./php-fpm -c /alidata/server/php/etc/php.ini -y /alidata/server/php/etc/php-fpm.conf
+
+#关闭php-fpm
+kill -INT `cat  /alidata/server/php/var/run/php-fpm.pid`
+
+查看磁盘大文件
+find / -size +1000000K -print
+du -lh --max-depth=1
+
+查看端口占用情况
+ netstat -apn | grep 8084
+
+查看linux重启记录
+last | grep reboot
+
+查看linux版本
+cat /etc/issue
+
+虚拟机不能ping通主机
+1.设置桥接
+2.主机与虚拟机同一网段
+3.主机关闭防火墙（家族或工作专用网络）
+
+本机IP:
+121.15.7.26
+210.21.222.202
+
+主机不能访问虚拟机web服务
+关闭防火墙：service iptables stop 即时生效，重启后失效
+
+.tar.gz
+解压：tar zxvf FileName.tar.gz
+压缩：tar zcvf FileName.tar.gz DirName
+
+ftp
+ put /mnt/www/launcher.szprize.cn/Application/Runtime/Logs/Zyp/17_03_30.log.tar.gz ./17_03_31_test.log.tar.gz
+
+svn propset svn:executable on test.c
+
+查找二进制文件 （可执行文件）
+which openssl
+
+新openssl安装到/usr/local/openssl
+
+
+sed 对行操作
+awk 对列操作
+
+svn 更新到某版本
+svn up -r 44(版本号)

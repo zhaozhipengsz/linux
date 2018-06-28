@@ -1,0 +1,81 @@
+Mysql 安装步骤
+1.下载MySQL-client-5.6.34-1.linux_glibc2.5.x86_64.rpm，MySQL-server-5.6.34-1.linux_glibc2.5.x86_64.rpm
+2.先卸载以前的mysql ：yum -y remove mysql-libs-5.1.71*
+3.安装rpm -ivh ；其中client安装在/usr/bin/mysql目录。
+4.修改密码 /etc/init.d/mysql stop
+    以安全方式启动mysql:
+    #/usr/bin/mysqld_safe --skip-grant-tables
+    然后在另开一终端编辑器，输入修改密码的命令
+    出现“mysql>”提示符后输入：
+    mysql> update user set password = Password('root') where User = 'root';
+    回车后执行（刷新MySQL系统权限相关的表）：
+    mysql> flush privileges;
+    再执行exit退出：
+    mysql> exit;
+5.开机自启动
+    cp /usr/local/MySQL/support-files/mysql.server /etc/init.d/mysql   将服务文件拷贝到init.d下，并重命名为mysql
+    chmod +x /etc/init.d/mysql    赋予可执行权限
+    chkconfig --add mysql        添加服务
+    chkconfig --list             显示服务列表
+
+备注：
+/etc/init.d 是/etc/rc.d/init.d 的软链接
+/mnt/hgfs/centos共享/ 是共享目录
+查看CentOS版本
+cat /etc/redhat-release
+CentOS release 6.5 (Final)
+
+cmake -DCMAKE_INSTALL_PREFIX=/alidata/server/mysql -DMYSQL_UNIX_ADDR=/tmp/mysql.sock -DDEFAULT_CHARSET=utf8 -DDEFAULT_COLLATION=utf8_general_ci -DWITH_EXTRA_CHARSETS:STRING=utf8,gbk -DWITH_MYISAM_STORAGE_ENGINE=1 -DWITH_INNOBASE_STORAGE_ENGINE=1 -DWITH_READLINE=1 -DENABLED_LOCAL_INFILE=1 -DMYSQL_DATADIR=/alidata/server/mysql/data
+
+
+
+server的安装目录
+/usr/lib64/mysql
+/usr/eaglezhao/php-5.5.7/travis/ext/mysql
+/usr/eaglezhao/php-5.5.7/ext/mysql
+/usr/share/mysql
+/etc/logrotate.d/mysql
+/etc/rc.d/init.d/mysql
+/var/lock/subsys/mysql
+/var/lib/mysql
+/var/lib/mysql/mysql
+
+
+
+client安装后的目录
+/usr/lib64/mysql
+/usr/bin/mysql #客户端安装目录
+/usr/eaglezhao/php-5.5.7/travis/ext/mysql
+/usr/eaglezhao/php-5.5.7/ext/mysql
+/usr/share/mysql
+/etc/logrotate.d/mysql
+/etc/rc.d/init.d/mysql
+/var/lock/subsys/mysql
+/var/lib/mysql
+/var/lib/mysql/mysql
+
+devel 安装后的目录
+/usr/lib64/mysql
+/usr/include/mysql #依赖包安装目录
+/usr/include/mysql/mysql
+/usr/bin/mysql
+/usr/eaglezhao/php-5.5.7/travis/ext/mysql
+/usr/eaglezhao/php-5.5.7/ext/mysql
+/usr/share/mysql
+/etc/logrotate.d/mysql
+/etc/rc.d/init.d/mysql
+/var/lock/subsys/mysql
+/var/lib/mysql
+/var/lib/mysql/mysql
+
+
+/alidata/server/php/bin/phpize
+
+php安装pdo_mysql 扩展
+./configure -with-php-config=/alidata/server/php-5.5.7/bin/php-config --enable-pdo=shared
+./configure -with-php-config=/alidata/server/php-5.5.7/bin/php-config --with-pdo-mysql=/usr/bin/mysql
+
+./configure --with-php-config=/alidata/server/php/bin/php-config
+
+cp /mnt/hgfs/centos共享/nginx.conf ./
+./configure --with-php-config=/usr/local/php/bin/php-config
